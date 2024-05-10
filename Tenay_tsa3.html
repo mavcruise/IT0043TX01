@@ -11,7 +11,7 @@
   <center>
     <form>
       <label for="Dex">National Dex:</label>
-      <input type="text" id="Dex" name="Dex"><br><br>
+      <input type="number" id="Dex" name="Ndex" min="0" max="9999"><br><br>
 
       <input type="radio" id="gen1" name="GEN">
       <label for="gen1">Generation 1</label>
@@ -39,9 +39,49 @@
       <input type="file" id="myfile" name="myfile"><br><br>
 
       <label for="typ">Type 1:</label>
-      <input type="text" id="typ1" name="type1">
+      <input list="types" id="typ1" name="type1">
+      <datalist id="types1">
+        <option value="Normal">
+        <option value="Fire">
+        <option value="Water">
+        <option value="Electric">
+        <option value="Grass">
+        <option value="Ice">
+        <option value="Fighting">
+        <option value="Poison">
+        <option value="Ground">
+        <option value="Flying">
+        <option value="Psychic">
+        <option value="Bug">
+        <option value="Rock">
+        <option value="Ghost">
+        <option value="Dragon">
+        <option value="Dark">
+        <option value="Steel">
+        <option value="Fairy">          
+        </datalist>
       <label for="typ2">Type 2:</label>
-      <input type="text" id="typ2" name="type2"><br><br>
+      <input list="types2" id="typ2" name="type2"><br><br>
+      <datalist id="types2">
+        <option value="Normal">
+        <option value="Fire">
+        <option value="Water">
+        <option value="Electric">
+        <option value="Grass">
+        <option value="Ice">
+        <option value="Fighting">
+        <option value="Poison">
+        <option value="Ground">
+        <option value="Flying">
+        <option value="Psychic">
+        <option value="Bug">
+        <option value="Rock">
+        <option value="Ghost">
+        <option value="Dragon">
+        <option value="Dark">
+        <option value="Steel">
+        <option value="Fairy">          
+        </datalist>
 
       <label for="evf">Evolves from:</label>
       <input type="text" id="evf1" name="evf">
