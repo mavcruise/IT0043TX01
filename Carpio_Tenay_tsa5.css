@@ -1,0 +1,29 @@
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat, repeat;
+}
+
+.container {
+    background-size: 750px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    width: 350px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+  }
+
+.card {
+background-image:url(pokeball.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat, no-repeat;
+border-radius: 25px;
+}
+
+
+
