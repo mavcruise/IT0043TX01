@@ -1,0 +1,111 @@
+body {
+    background-image: url(pokemonbg.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    flex-wrap: flex;
+    flex: 1 0 20%;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.image-container {
+    background-color: antiquewhite;
+    height: 250px;
+    width: 250px;
+    margin: 12px;
+}
+
+
+img {
+    height: 230px;
+    margin: 10px;
+}
+
+.image-container2 {
+    background-color: yellow;
+    height: 250px;
+    width: 250px;
+    margin: 12px;
+
+}
+
+.image-container3 {
+    background-color: peachpuff;
+    height: 250px;
+    width: 250px;
+    margin: 12px;
+
+}
+
+.image-container4 {
+    background-color: violet;
+    height: 250px;
+    width: 250px;
+    margin: 12px;
+}
+
+.image-container5 {
+    background-color: green;
+    height: 250px;
+    width: 250px;
+    margin: 12px;
+}
+
+.image-container6 {
+    background-color: orange;
+    height: 250px;
+    width: 250px;
+    margin: 12px;
+}
+
+.image-container7 {
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+    margin: 12px;
+}
+
+.image-container8 {
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    margin: 12px;
+}
+
+.image-container9 {
+    background-color: orangered;
+    height: 250px;
+    width: 250px;
+    margin: 12px;
+}
+
+.image-container10 {
+    background-color: whitesmoke;
+    height: 250px;
+    width: 250px;
+    margin: 12px;
+}
+
+.image-container11 {
+    background-color: orange;
+    height: 250px;
+    width: 250px;
+    margin: 12px;
+}
+
+.image-container12 {
+    background-color: yellow;
+    height: 250px;
+    width: 250px;
+    margin: 12px;
+}
+
